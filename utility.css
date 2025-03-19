@@ -1,0 +1,51 @@
+.border{
+    border: 2px solid red;
+
+
+}
+.flex{
+    display: flex;
+    gap: 1px;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-gray{
+    background-color: #212121;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+/* Custom Dark Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e;  /* Dark background for track */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #444444;  /* Slightly lighter dark gray */
+    border-radius: 6px;
+    border: 3px solid #1e1e1e;  /* Matches track color for a recessed look */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555555;  /* Lighter shade on hover */
+  }
+  
